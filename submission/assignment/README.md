@@ -13,7 +13,6 @@ A simple C++ console calculator created for Assignment 2.
 ## Files
 
 - `calculator.cpp` - final calculator program
-- `basic-calculator.c++` - original basic-calculator development version
 - `input-validation.c++` - original input-validation development version
 - `image.png` - project screenshot
 
