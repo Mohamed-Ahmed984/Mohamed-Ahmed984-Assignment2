@@ -1,58 +1,41 @@
-# Mohamed-Ahmed984-Assignment2
-Assignment repo for assignment/1-2 (Assignment2)
-![Calculator Screenshot](screenshot.png)
+# Basic Calculator
 
-# Project Description
-
-This is a simple calculator application written in C++.
-
-The calculator allows the user to enter two numbers and perform basic mathematical operations.
+A simple C++ console calculator created for Assignment 2.
 
 ## Features
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Input validation
+- Addition, subtraction, multiplication, and division
+- Division-by-zero protection
+- Validation for invalid numeric input
+- Validation for unsupported operators
+- Repeated calculations without restarting the application
 
-## Language / Technologies Used
+## Files
 
-- C++
-- Git
-- GitHub
+- `calculator.cpp` - final calculator program
+- `basic-calculator.c++` - original basic-calculator development version
+- `input-validation.c++` - original input-validation development version
+- `image.png` - project screenshot
 
-## How to Run
+## Required Branches
 
-### 1. Clone the repository
+- `feature/basic-calculator`
+- `feature/input-validation`
+- `docs/update-readme`
 
-```bash
-git clone <repository-url>
-```
+## Compile and Run
 
-### 2. Open the project folder
-
-```bash
-cd calculator
-```
-
-### 3. Compile the program
+### Windows
 
 ```bash
-g++ main.cpp -o calculator
-```
-
-### 4. Run the program
-
-On Windows:
-
-```bash
+g++ calculator.cpp -o calculator.exe
 calculator.exe
 ```
 
-On Linux or macOS:
+### Linux or macOS
 
 ```bash
+g++ calculator.cpp -o calculator
 ./calculator
 ```
 
@@ -63,8 +46,9 @@ Enter first number: 10
 Enter operator (+, -, *, /): +
 Enter second number: 5
 Result: 15
+Do you want another calculation? (y/n): y
 ```
 
 ## Screenshot
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot](image.png)
